@@ -172,7 +172,6 @@ $ yarn dev:server
 - **Body:**
   ```json
   {
-    "id": "uuid",
     "title": "Salário",
     "value": 3000,
     "type": "income"
@@ -187,9 +186,10 @@ $ yarn dev:server
 - **Content:**
   ```json
   {
-    "id": "73d72f83-8421-47d7-85a9-a34995b6b048",
-    "provider": "Marcelo Farias",
-    "date": "2020-04-22T23:00:00.000Z"
+    "id": "uuid",
+    "title": "Salário",
+    "value": 3000,
+    "type": "income"
   }
   ```
 ##### Error
@@ -200,7 +200,7 @@ $ yarn dev:server
 - **Content:**
   ```json
   {
-    "error": "This appointment is already booked!"
+    "error": "There is not enough balance!"
   }
   ```
 
